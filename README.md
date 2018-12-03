@@ -48,6 +48,13 @@ git clone https://github.com/CheneyZeng/kivy_clock.git
 jupyter notebook
 ```
 
+4. 改变环境
+
+[image1]: changekernel.png "Sample Output"
+
+如图![Sample Output][image1]来kernel改成 **Python:my_python**。
+
+
 __注意：__ 我们虽然已经实现了一些代码，让你更快地开始工作，你仍需要实现额外的功能，以回答 notebook 中所有的问题。
 __除非有要求，否则不要修改任何已经包含的代码。__
 
