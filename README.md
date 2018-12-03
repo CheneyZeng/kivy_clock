@@ -35,11 +35,11 @@ git clone https://github.com/CheneyZeng/kivy_clock.git
 	对于 __Windows__：
 	
 	```bash
-	conda env create -n my_python
+	conda create --name my_python python=3.6
 	activate my_python
 	conda install ipykernel
-	pip install -r require.txt
-	python -m ipykernel install --user --name my_python --display-name "Python:my_python"
+	pip install -r require_windows.txt
+	python -m ipykernel install --user --name my_python
 	```
 	
 3. 打开 notebook
