@@ -27,9 +27,9 @@ git clone https://github.com/CheneyZeng/kivy_clock.git
 	```bash
 	conda env create -n my_python
 	source activate my_python
-  conda install ipykernel
+	conda install ipykernel
 	pip install -r require.txt
-  python -m ipykernel install --user --name my_python --display-name "Python:my_python"
+	python -m ipykernel install --user --name my_python --display-name "Python:my_python"
 	```
 
 	对于 __Windows__：
@@ -37,9 +37,9 @@ git clone https://github.com/CheneyZeng/kivy_clock.git
 	```bash
 	conda env create -n my_python
 	activate my_python
-  conda install ipykernel
+	conda install ipykernel
 	pip install -r require.txt
-  python -m ipykernel install --user --name my_python --display-name "Python:my_python"
+	python -m ipykernel install --user --name my_python --display-name "Python:my_python"
 	```
 	
 3. 打开 notebook
