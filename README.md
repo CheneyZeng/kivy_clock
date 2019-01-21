@@ -70,4 +70,19 @@ __除非有要求，否则不要修改任何已经包含的代码。__
 - 将你的 notebook 导出为 HTML 以及 py 格式，并以 `kivy_clock.html` 以及 `kivy_clock.py` 命名
 - 任何用于项目中，并且并非由我们为这一项目提供的额外数据图片。
 
+## Appendix
+* win10 策略
+	- open an Anaconda prompt window as administrator
+	- pip uninstall kivy
+	- pip install kivy
+	- pip install docutils pygments pypiwin32 kivy.deps.sdl2
+	- pip install kivy.deps.glew
+	
+* Mac Mojave的可能策略
+	- $ brew uninstall sdl2 sdl2_image sdl2_ttf sdl2_mixer
+	- $ brew install --HEAD sdl2
+	- $ brew install sdl2_image sdl2_ttf sdl2_mixer
+	- $ pip install Cython==0.28.2
+	- $ pip install --no-binary Kivy Kivy
+
 
