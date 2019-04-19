@@ -25,7 +25,7 @@ git clone https://github.com/CheneyZeng/kivy_clock.git
 	对于 __Mac/OSX__：
 	
 	```bash
-	conda env create -n my_python
+	conda env create -n my_python python=3.6
 	source activate my_python
 	conda install ipykernel
 	pip install -r require.txt
